@@ -178,6 +178,68 @@ padding-left: 1em;
  }
 
 
-@media screen and(min-width : 576px) {
+@media screen and (min-width : 576px) {
+    header{
+        display: flex;
+      justify-content: center;
+   
+      
+    }
+    nav{
+        padding-left: 50%;
+        padding-right: 50%;
+        margin-top: 0px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+    padding-top: 0px ;
+     border: 1px #FEF7E2;
+     height: 240px;
+    width: 100%;
+    border-radius: 0em;
+    background-color: #FEF7E2;
+ 
+ 
     
+    }
+    .Borderallnav{
+        display: flex;
+        width: auto;
+        flex-wrap: nowrap;
+       
+ 
+       
+    
+    }
+    #nav1{
+        order: 1;  
+    }
+    #nav2{
+        order: 2;
+    }
+    #nav3{
+        order: 5;  
+    }
+    #nav4{
+        order:4 ;
+    }
+    #nav5{
+        order:3 ;  
+    }
+
+    main h2{
+        font-size: 2.4em;
+       
+    }
+    main{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .card{
+        margin-bottom: 0px;
+    }
+    #five{
+     display: none;
+    }
 }
+
